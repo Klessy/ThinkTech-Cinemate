@@ -20,7 +20,7 @@ export const MovieDetail = () => {
       // console.log(json);
     }
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
   // useEffect(() => {
   //   document.title = `${movie.title} / Cinemate`;
